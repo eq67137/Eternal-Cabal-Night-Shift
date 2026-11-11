@@ -1,0 +1,33 @@
+# --- Runtime data (never commit) ---
+database/*.db
+database/*.db-shm
+database/*.db-wal
+database/heartbeat.json
+database/state.json
+database/companion.lock
+backups/
+logs/
+
+# --- Local config (may contain preferences) ---
+config.yaml
+config.yml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Test artifacts ---
+tests/.test_*.db
+tests/.test_*.db-shm
+tests/.test_*.db-wal
+tests/.locktest_*.lock
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

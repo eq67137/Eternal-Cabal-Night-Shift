@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eternal Cabal — Night Shift</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">EC</div>
+      <div>
+        <div class="brand-title">ETERNAL CABAL</div>
+        <div class="brand-sub">NIGHT SHIFT</div>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot">
+      <div class="status-pill" id="service-pill"><span class="dot"></span><span>checking</span></div>
+      <div class="sidebar-meta" id="sidebar-meta"></div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <header id="topbar">
+      <div>
+        <h1 id="page-title">Overview</h1>
+        <div class="crumb" id="page-crumb">Night Shift Companion</div>
+      </div>
+      <div class="topbar-right">
+        <div class="clock" id="clock">--:--</div>
+        <button class="btn btn-ghost" id="btn-test-telegram" title="Send a test message">Test Telegram</button>
+        <button class="btn btn-ghost" id="btn-send-report" title="Send the daily report now">Send Report</button>
+      </div>
+    </header>
+    <section id="content" class="content"></section>
+  </main>
+</div>
+<div id="toast-wrap"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
